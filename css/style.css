@@ -133,11 +133,32 @@
   right: 46px;
 }
 
-.btn-popup-nivel {
-  top: 269px;
+.btn-popup-envelhecimento {
+  top: 97px;
   width: 45px;
   height: 45px;
-  left: 501px;
+  right: 385px;
+}
+
+.btn-popup-formula-natural {
+  bottom: 197px;
+  width: 45px;
+  height: 45px;
+  left: 381px;
+}
+
+.btn-popup-melhores-versoes {
+  bottom: 389px;
+  width: 45px;
+  height: 45px;
+  right: 54px;
+}
+
+.btn-popup-recomendacao {
+  top: 263px;
+  width: 45px;
+  height: 45px;
+  right: 266px;
 }
 
 .btn-popup-gineco {
