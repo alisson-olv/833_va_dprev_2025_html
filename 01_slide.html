@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>oc</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="bg" class="animation">
+      <img id="img-bg" src="./media/img/01.png" />
+    </div>
+
+    <section id="section">
+      <section class="slides show" id="tela_01">
+        <img width="1112" src="media/img/01.png" />
+
+        <a
+          class="btn btn-popup-dosagem bt-popup"
+          data-popup="#popup-dosagem"
+        ></a>
+        <a class="btn btn-popup-ative bt-popup" data-popup="#popup-ative"></a>
+        <a
+          class="btn btn-popup-dprev-gotas bt-popup"
+          data-popup="#popup-dprev-gotas"
+        ></a>
+      </section>
+
+      <div class="popup" id="popup-dosagem">
+        <img width="1112" src="./media/img/01-popup-dosagem.png" />
+
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
+
+      <div class="popup" id="popup-ative">
+        <img width="1112" src="./media/img/01-popup-ative.png" />
+
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
+
+      <div class="popup" id="popup-dprev-gotas">
+        <img width="1112" src="./media/img/01-popup-dprev-gotas.png" />
+
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>

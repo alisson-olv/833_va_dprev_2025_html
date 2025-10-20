@@ -1,0 +1,189 @@
+* {
+  margin: 0 auto;
+}
+
+#bg,
+#section {
+  -webkit-transform: translate(-50%, -50%) scale(1) translate(50%, 50%);
+  transform: translate(-50%, -50%) scale(1) translate(50%, 50%);
+}
+
+#bg,
+#bg > img,
+#bg > video,
+.popup,
+#section {
+  width: 1112px;
+  height: 834px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.slides {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+  width: 1112px;
+  height: 834px;
+  z-index: 2;
+}
+
+.slides.show {
+  display: block;
+}
+
+#bg {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#bg img,
+#bg video {
+  top: 0;
+  left: 0;
+}
+
+#bg video {
+  z-index: 1;
+}
+
+#bg.animation #img-bg {
+  z-index: 2;
+}
+
+.show {
+  opacity: 1;
+}
+
+#section {
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.btn {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+}
+
+.popup {
+  top: 0;
+  left: 0;
+  z-index: 4;
+  opacity: 0;
+  display: none;
+}
+
+.popup.alpha {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup.showing {
+  display: block;
+  animation: alpha 0.5s 0s forwards;
+  -webkit-animation: alpha 0.5s 0s forwards;
+}
+
+.popup > .btn {
+  z-index: 2;
+}
+
+.btn-popup-dosagem {
+  top: 318px;
+  width: 45px;
+  height: 45px;
+  left: 447px;
+}
+
+.btn-popup-ative {
+  top: 419px;
+  width: 45px;
+  height: 45px;
+  left: 639px;
+}
+
+.btn-popup-dprev-gotas {
+  top: 411px;
+  width: 45px;
+  height: 45px;
+  right: 42px;
+}
+
+.btn-popup-sup-calcio {
+  top: 415px;
+  width: 45px;
+  height: 45px;
+  left: 690px;
+}
+
+.btn-popup-gestacao-calcio {
+  top: 419px;
+  width: 45px;
+  height: 45px;
+  right: 56px;
+}
+
+.btn-popup-recomendacao-uso {
+  bottom: 41px;
+  width: 219px;
+  height: 48px;
+  right: 46px;
+}
+
+.btn-popup-nivel {
+  top: 269px;
+  width: 45px;
+  height: 45px;
+  left: 501px;
+}
+
+.btn-popup-gineco {
+  top: 307px;
+  width: 45px;
+  height: 45px;
+  left: 322px;
+}
+
+.btn-popup-gastro {
+  top: 307px;
+  width: 45px;
+  height: 45px;
+  left: 630px;
+}
+
+.btn-popup-end {
+  top: 307px;
+  width: 45px;
+  height: 45px;
+  left: 936px;
+}
+
+.btn-close-slide {
+  width: 50px;
+  height: 60px;
+  right: 61px;
+  top: 55px;
+}
+
+.btn-close-slide2 {
+  width: 50px;
+  height: 60px;
+  right: 112px;
+  top: 160px;
+}
+
+.btn-close-slide3 {
+  width: 50px;
+  height: 60px;
+  right: 70px;
+  top: 50px;
+}
+
+@keyframes alpha {
+  100% {
+    opacity: 1;
+  }
+}

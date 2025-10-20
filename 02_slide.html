@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>oc</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="bg" class="animation">
+      <img id="img-bg" src="./media/img/02.png" />
+    </div>
+
+    <section id="section">
+      <section class="slides show" id="tela_01">
+        <img width="1112" src="media/img/02.png" />
+
+        <a
+          class="btn btn-popup-sup-calcio bt-popup"
+          data-popup="#popup-sup-calcio"
+        ></a>
+        <a
+          class="btn btn-popup-gestacao-calcio bt-popup"
+          data-popup="#popup-gestacao-calcio"
+        ></a>
+        <a
+          class="btn btn-popup-recomendacao-uso bt-popup"
+          data-popup="#popup-recomendacao-uso"
+        ></a>
+      </section>
+    </section>
+
+    <div class="popup" id="popup-sup-calcio">
+      <img width="1112" src="./media/img/02-popup-sup-calcio.png" />
+
+      <a class="btn btn-close-slide bt-close-popup"></a>
+    </div>
+
+    <div class="popup" id="popup-gestacao-calcio">
+      <img width="1112" src="./media/img/02-popup-gestacao-calcio.png" />
+
+      <a class="btn btn-close-slide bt-close-popup"></a>
+    </div>
+
+    <div class="popup" id="popup-recomendacao-uso">
+      <img width="1112" src="./media/img/02-popup-recomendacao-uso.png" />
+
+      <a class="btn btn-close-slide bt-close-popup"></a>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
