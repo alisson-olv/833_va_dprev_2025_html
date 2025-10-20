@@ -1,75 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <title>oc</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <div id="bg" class="animation">
-            <img id="img-bg" src="./media/img/03.png"/>
-        </div>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-        <section id="section">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>oc</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="bg" class="animation">
+      <img id="img-bg" src="./media/img/03.png" />
+    </div>
 
-            <section class="slides show" id="tela_01">
-                <img src="media/img/03.png" />
-                
-                <a class="btn btn-popup-nivel bt-popup" data-popup="#popup-nivel"></a>
-                <a class="btn btn-popup-gineco bt-popup" data-popup="#popup-gineco"></a>
-                <a class="btn btn-popup-gastro bt-popup" data-popup="#popup-gastro"></a>
-                <a class="btn btn-popup-end bt-popup" data-popup="#popup-end"></a>
+    <section id="section">
+      <section class="slides show" id="tela_01">
+        <img width="1112" src="media/img/03.png" />
 
-            </section>
+        <a
+          class="btn btn-popup-envelhecimento bt-popup"
+          data-popup="#popup-envelhecimento"
+        ></a>
+        <a
+          class="btn btn-popup-formula-natural bt-popup"
+          data-popup="#popup-formula-natural"
+        ></a>
+        <a
+          class="btn btn-popup-melhores-versoes bt-popup"
+          data-popup="#popup-melhores-versoes"
+        ></a>
+        <a
+          class="btn btn-popup-recomendacao bt-popup"
+          data-popup="#popup-recomendacao"
+        ></a>
+      </section>
 
-            <a href="01_slide.html">
-                <div class="btn-inicio"></div>
-            </a>
+      <div class="popup" id="popup-envelhecimento">
+        <img width="1112" src="./media/img/03-popup-envelhecimento.png" />
 
-            <a href="02_slide.html">
-                <div class="btn-manifestacoes"></div>
-            </a>
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
 
-            <a href="03_slide.html">
-                <div class="btn-especialidades"></div>
-            </a>
+      <div class="popup" id="popup-formula-natural">
+        <img width="1112" src="./media/img/03-popup-formula-natural.png" />
 
-            <a href="04_slide.html">
-                <div class="btn-minibula"></div>
-            </a>
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
 
-            <div class="popup" id="popup-nivel">
-                <img width="1112" src="./media/img/03-popup-nivel.png"/>
+      <div class="popup" id="popup-melhores-versoes">
+        <img width="1112" src="./media/img/03-popup-melhores-versoes.png" />
 
-                <a class="btn btn-close-slide2 bt-close-popup"></a>
-            </div>
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
 
-            <div class="popup" id="popup-gineco">
-                <img width="1112" src="./media/img/03-popup-gineco.png"/>
+      <div class="popup" id="popup-recomendacao">
+        <img width="1112" src="./media/img/03-popup-recomendacao.png" />
 
-                <a class="btn btn-close-slide3 bt-close-popup"></a>
-            </div>
+        <a class="btn btn-close-slide bt-close-popup"></a>
+      </div>
+    </section>
 
-            <div class="popup" id="popup-gastro">
-                <img width="1112" src="./media/img/03-popup-gastro.png"/>
-
-                <a class="btn btn-close-slide3 bt-close-popup"></a>
-            </div>
-
-            <div class="popup" id="popup-end">
-                <img width="1112" src="./media/img/03-popup-end.png"/>
-
-                <a class="btn btn-close-slide3 bt-close-popup"></a>
-            </div>
-
-        </section>
-
-        
-
-        <script type="text/javascript" src="./js/jquery.min.js"></script>
-        <script type="text/javascript" src="./js/script.js"></script>
-    </body>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
 </html>
