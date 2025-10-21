@@ -17,6 +17,7 @@
   height: 834px;
   position: absolute;
   overflow: hidden;
+  backdrop-filter: blur(8px);
 }
 
 .slides {
@@ -159,27 +160,6 @@
   width: 45px;
   height: 45px;
   right: 266px;
-}
-
-.btn-popup-gineco {
-  top: 307px;
-  width: 45px;
-  height: 45px;
-  left: 322px;
-}
-
-.btn-popup-gastro {
-  top: 307px;
-  width: 45px;
-  height: 45px;
-  left: 630px;
-}
-
-.btn-popup-end {
-  top: 307px;
-  width: 45px;
-  height: 45px;
-  left: 936px;
 }
 
 .btn-close-slide {
